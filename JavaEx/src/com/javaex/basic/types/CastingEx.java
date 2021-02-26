@@ -1,6 +1,6 @@
 package com.javaex.basic.types;
 
-//	bate(1) <	short(2)	<	int(4)	<	long(8)		<	float(4)	<	double(8)
+//	byte(1) <	short(2)	<	int(4)	<	long(8)		<	float(4)	<	double(8)
 public class CastingEx {
 
 	public static void main(String[] args) {
