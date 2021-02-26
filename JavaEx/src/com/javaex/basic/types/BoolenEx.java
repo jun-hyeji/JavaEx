@@ -1,22 +1,22 @@
 package com.javaex.basic.types;
 
-//	¹°¸®Çü
-//	Âü, °ÅÁşÀ» ´Ù·ç´Â ´Ù·áÇü
-//	°ª¿¡ µû¶ó¼­ Á¶°Ç¹®, Á¦¾î¹®À» ÀÌ¿ë Èå¸§Á¦¾î¿¡ »ç¿ë -> Áß¿ä
+//	ë¶ˆë¦°í˜•
+//	ì¡°ê±´ì˜ ê²°ê³¼(ì°¸, ê±°ì§“)ì„ ë‹¤ë£¨ëŠ” ìë£Œí˜•
+//	ê°’ì— ë”°ë¼ì„œ ì¡°ê±´ë¶„, ì œì–´ë¬¸ì„ ì´ìš© íë¦„ì œì–´ì— ì‚¬ìš© -> ì¤‘ìš”
 public class BoolenEx {
 
 	public static void main(String[] args) {
-		boolean b1 = true;	//	Âü
-		boolean	b2 = false;	//	°ÅÁş
+		boolean b1 = true;	//	ì°¸
+		boolean	b2 = false;	//	ê±°ì§“
 		
 		System.out.println(b1);
 		System.out.println(b2);
 		
-		//	ºñ±³, ³í¸® ¿¬»êÀÌ °á°ú·Î ÃßÃâµÈ´Ù
+		//	ë¹„êµ, ë…¼ë¦¬ ì—°ì‚°ì˜ ê²°ê³¼ë¡œ ì¶”ì¶œëœë‹¤.
 		int v1 = 3, v2 = 5;
 		boolean result = v1 < v2;
 		
-		System.out.println(v1 + " < " + v2 + " = ");
+		System.out.println(v1 + " < " + v2 + " ? "+ result);
 
 	}
 

@@ -1,7 +1,7 @@
 package com.javaex.basic.types;
 
 //	char(2)
-//	�����ڵ� ĳ���� 1����
+//	유니코드 캐릭터 1글자
 public class CharEx {
 
 	public static void main(String[] args) {
@@ -13,7 +13,8 @@ public class CharEx {
 		
 		System.out.println(c1 + c2); //	int�� ��ȯ
 
-		String str = "AB";	//	String char�� ����� ����
+		String str = "A한";	//	String은 char의 연결된 자료구조
+		System.out.println(str);
 	}
 
 }

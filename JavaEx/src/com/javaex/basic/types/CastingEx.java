@@ -28,9 +28,9 @@ public class CastingEx {
 	}
 	
 	//	암묵적 캐스팅(implicit casting : promotion)
-	//	표현 범위가 좁은 자료화	->	넓은 자료형	:	자바 자동 범위
+	//	표현 범위가 좁은 자료형	->	넓은 자료형	:	자바 자동 변환
 	private	static void impliciteCastingEx() {
-		byte b = 25;	//	2바이트 정수
+		byte b = 25;	//	1바이트 정수
 		System.out.println(b);
 		
 		short s = b;	//	2바이트 정수

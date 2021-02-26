@@ -1,26 +1,26 @@
 package com.javaex.basic.types;
 
-//	»ó¼ö
+//	ì‹¤ìˆ˜
 //	float(4) < double(8)
-//	Á¤¹Ðµµ¸¦ Æ÷±âÇÏ°í Ç¥Çö ¹üÀ§¸¦ ³ÐÈù ÀÚ·áÇü
-//	Ç¥Çö ¹üÀ§	: type	<	short	<	int(4)	<	long(8)	<	float(4)	<	double(8)
+//	ì •ë°€ë„ë¥¼ í¬ê¸°í•˜ê³  í‘œí˜„ ë²”ìœ„ë¥¼ ë„“ížŒ ìžë£Œí˜•
+//	í‘œí˜„ë²”ìœ„	: type < short < int(4) < long(8) < float(4) < double(8)
 public class FloatDoubleEx {
 
 	public static void main(String[] args) {
-		float floatVar = 3.14159f;	//	F or f Á¢¾î
-		double doubleVar = 3.14159;		//	½Ç¼öÇü ±âº»Àº double
+		float floatVar = 3.14159f;	//	F or f ì ‘ë¯¸
+		double doubleVar = 3.14159;		//	ì‹¤ìˆ˜í˜• ê¸°ë³¸ì€ double
 		
 		int intVar = 30000000;
-		floatVar = 3E7f; //	3*7ÀÇ10½Â
+		floatVar = 3E7f; 
 		doubleVar = 314159E-5;	//	=	3.14159
 		
 		System.out.println("int = " + intVar);
 		System.out.println("float = " + floatVar);
 		System.out.println("double = "+ doubleVar);
 		
-		//	ºÎµ¿¼Ò¼öÁ¡ °è»êÀÇ À¯ÀÇÁ¡
-		//	float, double Á¤¹Ðµµ Æ÷±âÇÏ°í Ç¥Çö ¹üÀ§¸¦ ³ÐÈù ÀÚ·áÇü
-		//	Á¤¹Ð°è»ê¿¡ È°¿ë½Ã¿¡´Â À¯ÀÇ
+		//	ë¶€ë™ì†Œìˆ˜ì  ê³„ì‚°ì˜ ìœ ì˜ì 
+		//	float, double ì •ë°€ë„ í¬ê¸°í•˜ê³  í‘œí˜„ ë²”ìœ„ë¥¼ ë„“ížŒ ìžë£Œí˜•
+		//	ì •ë°€ê³„ì‚°ì— í™œìš©ì‹œì—ëŠ” ìœ ì˜
 		System.out.println(0.1*3);
 	}
 }
