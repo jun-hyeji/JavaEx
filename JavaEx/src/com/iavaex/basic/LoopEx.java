@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class LoopEx {
 
 	public static void main(String[] args) {
-//		whileEx01();
+		whileEx01();
 //		whileGugu();
 //		dowhileEx();
 //		infLoop();
@@ -13,25 +13,26 @@ public class LoopEx {
 //		continueEx();
 //		breakEx();
 //		nestedForStar();
-		sixRandom();
+//		sixRandom();
 	}
 	private static void sixRandom() {
 		//	1 ~ 45 정수난수 6개를 출력
-		for (int i = 1; i <=6; i ++) {
+		for (int i = 1; i <= 6; i ++) {
 //			System.out.println(Math.random());
 			System.out.println((int)(Math.random()*45 ) + 1);
 		}
 		//	TODO : while 문으로 만들어보자
 	}
 	private static void nestedForStar() {
-		int rowCount = 5;
+		int rowCount = 10;
 		
-		for (int row = 1; row <=5; row++) {
-			for(int col = 1;col <= row; col++) {
-				System.out.print("*")
+		for (int row = 1; row <= rowCount; row++) {
+			for (int col = 1;col <= row; col++) {
+				System.out.print("*");
 			}
-			System.out.println();
+			System.out.println();	//	개행
 		}
+		//	TODO : while 문으로 만들어보자
 	}
 	private static void nestedFor() {
 		//	2단 ~ 9단 까지의 구구표르 모두 출력
@@ -39,8 +40,8 @@ public class LoopEx {
 			System.out.println(dan + "단");
 			
 			//   중첩 loop
-			for (int num =1; num <= 9; num++) {
-				System.out.println(dan + "*" + num + "=" + (**)
+			for (int num = 1; num <= 9; num++) {
+				System.out.println(dan + "*" + num + "=" + (dan * num));
 			}
 		}
 	}
@@ -49,7 +50,7 @@ public class LoopEx {
 		int num = 1;
 		
 		while(true) {
-			if ( num  % 6 == 0 && num % 14 == 0) {break;	//	break문을 만나면 루프 탈출}
+			if ( num  % 6 == 0 && num % 14 == 0) break;	//	break문을 만나면 루프 탈출}
 			num++;
 		}
 		System.out.println(num);

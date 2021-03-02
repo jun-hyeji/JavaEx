@@ -31,9 +31,9 @@ public class StringEx {
 	private static void stringTest() {
 		//	문자열 선언
 		String str;	//	선언
-		str = "Java";	//	초기화
+		str = "Java";	//	초기화 - Literal
 		System.out.println("str:"+ str);
-		System str2 = "Java";	//	Literal
+		String str2 = "Java";	//	Literal
 		System.out.println("str2:" + str2);
 		String str3 = new String("java");	//	새 객체 생성
 		System.out.println("str3:"+ str3);
@@ -47,5 +47,6 @@ public class StringEx {
 		System.out.println("str과 str2 내용이 같은가?"+ str.equals(str2));
 		System.out.println("str과 str3 내용이 같은가?"+ str.equals(str3));
 		
+		//	String은 API 항목에서 정리
 	}
 }
