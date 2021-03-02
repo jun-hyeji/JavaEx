@@ -15,8 +15,8 @@ public class ConditionalEx {
 	}
 	//	연습문제
 	private static void ifPractice02() {
-		Scanner scanner = new scanner(System.in);
-		System.out.print("점수를 입력하세요)");
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("점수를 입력하세요:");
 		int score = scanner.nextInt();
 		
 //		if ( score %3 == 0    ) {
@@ -26,7 +26,7 @@ public class ConditionalEx {
 //			System.out.println( score + "는 3의 배수가 아닙니다.");
 //		}
 		System.out.println(score + "는 " +
-				(score  %  3== 0 ? "3의배수"))
+				(score  %  3 == 0 ? "3의배수입니다": "3의 배수가 아닙니다."));
 		scanner.close();
 	}
 	
@@ -35,7 +35,7 @@ public class ConditionalEx {
 		String day = "TUE";
 		String message;	//	결과 변수
 //		요일 변수 : 지정된 범위의 값만 들어와야 한다.
-		
+//		문자열 사용을 자제하고 -> enum 데이터 타입으로 변경하는 게 좋다
 		switch(day) {
 		case"SUN":
 			message= "일요일";
@@ -52,7 +52,7 @@ public class ConditionalEx {
 		default:
 			message = "?";
 		}
-		System.out.println();
+		System.out.println(day + "에는 " + message);;
 	}
 	//	연습문제
 	private static void switchEx2() {
