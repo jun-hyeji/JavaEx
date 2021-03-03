@@ -14,6 +14,18 @@ public class LoopEx {
 //		breakEx();
 //		nestedForStar();
 //		sixRandom();
+		whileRandom();
+	}
+	private static void whileRandom() {
+		Scanner scanner = new Scanner(System.in);
+		int num = 1;
+		System.out.print("1~45 정수난수 6개를 출력하시오");
+		
+		while (num <= 6) {
+			System.out.println((Math.random()*45)+1);
+			num++;
+		}
+		scanner.close();
 	}
 	private static void sixRandom() {
 		//	1 ~ 45 정수난수 6개를 출력
