@@ -57,15 +57,15 @@ public class ArrayEx {
 				{3, 4, 5, 6, 7,},
 		};
 		System.out.println("length of table: " + table.length);
-		System.out.println("lengtj of table[0]: " + table[0].length);
+		System.out.println("length of table[0]: " + table[0].length);
 		
 		//	table 배열의 모든 값을 합산
 		int total = 0;
 		for ( int row = 0 ; row < table.length; row++) {
 			//	행에 접근
 			for ( int col = 0; col < table[row].length; col++) {
-				System.out.print(table[row][col]+ \t");
-				total += table[row][col]
+				System.out.print(table[row][col]+ "\t");
+				total += table[row][col];
 			}
 			System.out.println();
 		}

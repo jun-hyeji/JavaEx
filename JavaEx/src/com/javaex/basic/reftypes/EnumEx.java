@@ -18,6 +18,7 @@ public class EnumEx {
 		case TUESDAY:
 		case WEDNESDAY:
 			message = "열공";
+			break;
 		case THURSDAY:
 		case FRIDAY:
 			message = "불금";
