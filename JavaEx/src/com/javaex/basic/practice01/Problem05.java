@@ -14,7 +14,8 @@ public class Problem05 {
 			System.out.print("숫자");
 			int num = scanner.nextInt();
 			
-			if (num > max) max = num;
+			//	첫번째 입력 값은 그냥max에 넣자
+			if( i ==1 || num > max )max = num;
 		}
 		System.out.println("최댓값은 " + max + "입니다.");
 		scanner.close();
