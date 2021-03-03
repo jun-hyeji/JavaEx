@@ -40,7 +40,7 @@ public class MethodEx {
 	}
 	
 	//	반환 값이 없을 경우 void 타입 지정
-	private static void prinDivide(int num1, int num2) {
+	private static void printDivide(int num1, int num2) {
 		if (num2 == 0) {
 			System.out.println("0으로는 나눌 수 없어요");
 			return;	//	return문을 만나면 남은 코드는 수행하지 않고 호출된 곳으로 되돌아간다.
