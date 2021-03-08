@@ -1,4 +1,4 @@
-package com.javaex.basic.practice01;
+package com.javaex.practice01;
 
 public class Problem01 {
 
