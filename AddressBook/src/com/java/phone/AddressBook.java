@@ -1,16 +1,17 @@
 package com.java.phone;
 
-class Phone{
-	private String name;	// 이름
-	private String hp;		// 휴대전화
-	private String tel;	// 집전화
+public class AddressBook {
+	private String name;
+	private String hp;
+	private String tel;
 	
-	public Phone(String name, String hp, String tel) {
+	public AddressBook(String name, String hp, String tel) {
 		super();
 		this.name = name;
 		this.hp = hp;
 		this.tel = tel;
 	}
+	
 	public String getName() {
 		return name;
 	}
@@ -29,9 +30,10 @@ class Phone{
 	public void setTel(String tel) {
 		this.tel = tel;
 	}
+
 	@Override
 	public String toString() {
-		return " [이름=" + name + ", 휴대전화=" + hp + ", 집번호=" +tel + "]";
+		return name+","+hp+","+tel;
 	}
 	
 	
